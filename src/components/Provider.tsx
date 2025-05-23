@@ -1,6 +1,6 @@
 export const Provider = () => {
   return (
-    <div className="bg-black md:w-[800px] flex flex-col items-center justify-center gap-0">
+    <div className="bg-black md:w-[800px] w-full flex flex-col items-center justify-center gap-0">
       <div className="relative w-full h-full overflow-hidden">
         {/* Top gradient border */}
         <div className="absolute top-0 left-0 w-full h-[0.5px] bg-gradient-to-r from-black via-green-500 to-black" />
@@ -18,7 +18,7 @@ export const Provider = () => {
           <div className="bg-green-200 font-luckiest text-[22px] px-2 pt-2">
             Our Providers
           </div>
-          <div className="font-ubuntu text-white/50">
+          <div className="font-ubuntu text-white/50 text-center">
             That AI is not just a privilege of centralized entities
           </div>
           <div></div>
@@ -41,7 +41,7 @@ export const Provider = () => {
           <div className="bg-purple-300 font-luckiest text-[22px] px-2 pt-2">
             Backed By
           </div>
-          <div className="font-ubuntu text-white/50">
+          <div className="font-ubuntu text-white/50 text-center">
             Zoan is building this foundation
           </div>
           <div></div>

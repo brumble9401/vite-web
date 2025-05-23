@@ -3,16 +3,16 @@ import zoanLogo2 from "../assets/Zoan-Mascot-2.png";
 
 export const Card = () => {
   return (
-    <div className="flex-shrink-0 w-[320px] bg-gradient-to-b from-purple-400 to-purple-200 p-10">
-      <div className="flex flex-col items-center gap-10">
-        <img src={zoanLogo2} />
+    <div className="flex-shrink-0 w-[320px] h-[545px] bg-gradient-to-b from-purple-400 to-purple-200 px-10">
+      <div className="flex flex-col items-center gap-4">
+        <img src={zoanLogo2} className="w-[240px]" />
         <div className="border-[0.5px] w-full border-purple-300" />
         <div className="flex flex-col justify-start items-start w-full">
-          <div className="font-luckiest bg-green-300 px-2 pt-2 text-black font-bold text-[22px] py-auto">
-            AUTONOMOUS LOGIC
+          <div className="font-luckiest bg-white px-2 text-black font-bold text-[22px] py-auto">
+            <p className="translate-y-1">AUTONOMOUS LOGIC</p>
           </div>
-          <div className="w-fit font-luckiest bg-purple-300 px-2 py-1 text-black font-bold text-[22px] pt-3">
-            FOR HUMANS
+          <div className="w-fit font-luckiest bg-purple-400 px-2 text-black font-bold text-[22px]">
+          <p className="translate-y-1">FOR HUMANS</p>
           </div>
         </div>
         <div className="font-ubuntu text-black/70">
@@ -41,14 +41,14 @@ export const Slider = () => {
         {/* Right border with gradient */}
         <div className="absolute right-0 bottom-0 w-[0.5px] h-full bg-gradient-to-t from-green-300 via-black to-green-300"></div>
 
-        <div className="font-luckiest uppercase text-3xl mt-10">
-          Puzzle & Style Vibrant Themes!
+        <div className="font-luckiest uppercase text-3xl mt-10 text-center">
+          Puzzle & Style Vibrant Themes! Explore Enchanting Dream Homes
         </div>
-        <div className="font-luckiest uppercase text-3xl">
+        {/* <div className="font-luckiest uppercase text-3xl">
           Explore Enchanting Dream Homes
-        </div>
+        </div> */}
 
-        <div className="flex flex-row overflow-x-auto scrollbar-none max-w-[800px] gap-6 mt-10">
+        <div className="flex flex-row overflow-x-auto scrollbar-none md:max-w-[800px] max-w-full gap-6 mt-10">
           <Card />
           <Card />
           <Card />

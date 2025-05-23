@@ -17,6 +17,7 @@ export default {
       white: "#ffffff",
       black: "rgba(0, 0, 0, 1)",
       green: {
+        100: "rgba(250, 254, 239, 1)",
         200: "rgba(237, 254, 207, 1)",
         300: "rgba(218, 253, 175, 1)",
         400: "rgba(173, 217, 127, 1)",

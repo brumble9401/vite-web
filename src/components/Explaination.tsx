@@ -4,7 +4,7 @@ import RightThunder from "../assets/RightThunder.png";
 export const Explaination = () => {
   return (
     <div className="bg-black w-full h-fit flex flex-col items-center">
-      <div className="relative md:w-[800px] h-full overflow-hidden">
+      <div className="relative md:w-[800px] w-full h-full overflow-hidden">
         {/* Left border with gradient */}
         <div className="absolute left-0 top-0 w-[0.5px] h-full bg-gradient-to-b from-black to-purple-500"></div>
 
@@ -12,13 +12,13 @@ export const Explaination = () => {
         <div className="absolute right-0 top-0 w-[0.5px] h-full bg-gradient-to-b from-black to-purple-500"></div>
 
         {/* Bottom border */}
-        <div className="absolute bottom-0 left-0 w-full h-[0.5px] bg-purple-500"></div>
+        {/* <div className="absolute bottom-0 left-0 w-full h-[0.5px] bg-purple-500"></div> */}
 
         {/* Top mask to ensure border starts as black */}
         <div className="absolute top-0 left-0 w-full h-[20%] bg-black z-10"></div>
 
         <div className="absolute z-20 flex flex-row items-start justify-center w-full h-full">
-          // <img className="w-[350px]" src={LeftThunder} />
+          // <img className="w-[350px]" src={LeftThunder} /> 
           // <img className="w-[350px]" src={RightThunder} />
           //{" "}
         </div>
