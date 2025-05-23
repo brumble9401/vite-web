@@ -3,14 +3,14 @@ import zoanFire from "../assets/Zoan-Mascot-Fire.png";
 
 export const LogicCompiler = () => {
   return (
-    <div className="relative w-full bg-black">
+    <div className="relative w-full h-full bg-black">
       <img
         src={pattern}
         className="absolute inset-0 w-full h-full object-cover z-10"
         alt="Background pattern"
       />
 
-      <div className="relative z-20 p-4 md:mx-[60px] xl:mx-[120px] mx-6 bg-black">
+      <div className="relative z-20 p-4 md:mx-[60px] xl:m-[120px] mx-6 bg-black h-fit">
         <div className="flex flex-col">
           {/* Header Section */}
           <div className="flex flex-col gap-20 lg:flex-row items-center justify-between px-4 md:px-10 lg:px-20">
