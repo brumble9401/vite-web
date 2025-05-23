@@ -15,12 +15,12 @@ const Header: React.FC = () => {
         <nav className="flex items-center justify-between px-4">
           {/* Logo + Social Icons (desktop) */}
           <div className="flex items-center gap-3">
-            <img src={logo} alt="logo" className="w-8" />
+            <img fetchPriority="high" src={logo} alt="logo" className="w-8" />
             <div className="hidden sm:flex gap-2 items-center">
-              <img src={rec} alt="rec" />
-              <img src={X} className="w-4" alt="X" />
-              <img src={dis} className="w-4" alt="Discord" />
-              <img src={tele} className="w-4" alt="Telegram" />
+              <img fetchPriority="high" src={rec} alt="rec" />
+              <img fetchPriority="high" src={X} className="w-4" alt="X" />
+              <img fetchPriority="high" src={dis} className="w-4" alt="Discord" />
+              <img fetchPriority="high" src={tele} className="w-4" alt="Telegram" />
             </div>
           </div>
 

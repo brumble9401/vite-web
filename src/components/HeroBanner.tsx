@@ -6,9 +6,10 @@ export const HeroBanner = () => {
   return (
     <div className="relative bg-black w-full md:h-[800px] h-[780px] pb-10">
       <div className="bg-white w-full">
-        <img className="absolute top-0 w-full h-full object-cover" src={cloud} />
-        <img className="absolute bottom-0" src={bigCloud} />
+        <img fetchPriority="high" className="absolute top-0 w-full h-full object-cover" src={cloud} />
+        <img fetchPriority="high" className="absolute bottom-0" src={bigCloud} />
         <img
+          fetchPriority="high"
           className="absolute md:-bottom-5 sm:-bottom-5 -bottom-20 right-0 left-0 mx-auto xl:w-[20%] md:w-[30%] sm:w-[40%] w-[70%]"
           src={logo}
         />
