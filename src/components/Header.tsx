@@ -10,7 +10,7 @@ const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 m-auto w-full md:w-[800px] w-full bg-green-200 backdrop-blur-sm z-50 border border-t-0 border-green-400">
+    <header className="fixed top-0 left-0 right-0 m-auto w-full md:w-[800px] bg-green-200 backdrop-blur-sm z-50 border border-t-0 border-green-400">
       <div className="mx-auto md:px-4 py-3">
         <nav className="flex items-center justify-between px-4">
           {/* Logo + Social Icons (desktop) */}
@@ -19,8 +19,18 @@ const Header: React.FC = () => {
             <div className="hidden sm:flex gap-2 items-center">
               <img fetchPriority="high" src={rec} alt="rec" />
               <img fetchPriority="high" src={X} className="w-4" alt="X" />
-              <img fetchPriority="high" src={dis} className="w-4" alt="Discord" />
-              <img fetchPriority="high" src={tele} className="w-4" alt="Telegram" />
+              <img
+                fetchPriority="high"
+                src={dis}
+                className="w-4"
+                alt="Discord"
+              />
+              <img
+                fetchPriority="high"
+                src={tele}
+                className="w-4"
+                alt="Telegram"
+              />
             </div>
           </div>
 
@@ -38,13 +48,29 @@ const Header: React.FC = () => {
               </div>
             </div>
             <div className="flex flex-row gap-2">
-              <button className="font-luckiest bg-black text-white font-extrabold px-3 py-1 rounded-xl shadow-md relative">
-                <span className="absolute top-2 left-1 w-2 h-1.5 -rotate-45 bg-white rounded-full" />
-                <p className="translate-y-1">Connect Wallet</p>
+              <button className="font-luckiest bg-black text-white text-[16px] font-extrabold px-4 py-2 pt-1 rounded-xl shadow-md relative group hover:bg-green-500 hover:duration-500">
+                <span
+                  className="absolute top-2 left-1 bg-white -rotate-45 transition group-hover:-translate-y-[1px]"
+                  style={{
+                    width: "10px",
+                    height: "6px",
+                    borderRadius: "50%",
+                  }}
+                ></span>
+                <p className="translate-y-1 uppercase group-hover:text-black">
+                  Connect Wallet
+                </p>
               </button>
-              <button className="font-luckiest bg-purple-300 text-black font-extrabold px-3 py-1 rounded-xl shadow-md relative">
-                <span className="absolute top-2 left-1 w-2 h-1.5 -rotate-45 bg-white rounded-full" />
-                <p className="translate-y-1">Sign Up</p>
+              <button className="font-luckiest bg-purple-300 text-black text-[16px] font-extrabold px-4 py-2 pt-1 rounded-xl shadow-md relative group hover:bg-purple-400 hover:duration-500">
+                <span
+                  style={{
+                    width: "10px",
+                    height: "6px",
+                    borderRadius: "50%",
+                  }}
+                  className="absolute top-2 left-1 -rotate-45 bg-white rounded-full transition group-hover:-translate-y-[1px]"
+                />
+                <p className="translate-y-1 uppercase">Sign Up</p>
               </button>
             </div>
           </div>
@@ -75,15 +101,31 @@ const Header: React.FC = () => {
             </div>
 
             <img src={rec} alt="rec" className="relative z-10 w-2 h-2" />
-            
+
             <div className="flex flex-row items-center justify-center gap-2">
-              <button className="font-luckiest bg-black text-white text-[16px] font-extrabold px-3 py-2 rounded-xl shadow-md relative">
-                <span className="absolute top-2 left-1 w-2 h-1.5 -rotate-45 bg-white rounded-full" />
-                Connect Wallet
+              <button className="font-luckiest bg-black text-white text-[16px] font-extrabold px-4 py-2 pt-1 rounded-xl shadow-md relative group hover:bg-green-500 hover:duration-500">
+                <span
+                  className="absolute top-2 left-1 bg-white -rotate-45 transition group-hover:-translate-y-[1px]"
+                  style={{
+                    width: "10px",
+                    height: "6px",
+                    borderRadius: "50%",
+                  }}
+                ></span>
+                <p className="translate-y-1 uppercase group-hover:text-black">
+                  Connect Wallet
+                </p>
               </button>
-              <button className="font-luckiest bg-purple-300 text-black text-[16px] font-extrabold px-3 py-2 rounded-xl shadow-md relative">
-                <span className="absolute top-2 left-1 w-2 h-1.5 -rotate-45 bg-white rounded-full" />
-                Sign Up
+              <button className="font-luckiest bg-purple-300 text-black text-[16px] font-extrabold px-4 py-2 pt-1 rounded-xl shadow-md relative group hover:bg-purple-400 hover:duration-500">
+                <span
+                  style={{
+                    width: "10px",
+                    height: "6px",
+                    borderRadius: "50%",
+                  }}
+                  className="absolute top-2 left-1 -rotate-45 bg-white rounded-full transition group-hover:-translate-y-[1px]"
+                />
+                <p className="translate-y-1 uppercase">Sign Up</p>
               </button>
             </div>
 

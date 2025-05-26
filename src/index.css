@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.ellipse {
+  width: 400px;
+  height: 200px;
+  background: white;
+  border-radius: 50%;
+  transform: rotate(25deg);
+}

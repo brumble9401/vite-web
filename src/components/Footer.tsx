@@ -32,24 +32,24 @@ export const Footer = () => {
         </div>
 
         <div className="flex gap-3 sm:gap-4">
-          <button className="bg-white text-black p-2 sm:p-3 rounded w-[40px] h-[40px] sm:w-[48px] sm:h-[48px] bg-purple-200 flex items-center justify-center">
+          <button className="bg-white text-black p-2 sm:p-3 rounded w-[40px] h-[40px] sm:w-[48px] sm:h-[48px] bg-purple-200 flex items-center justify-center hover:bg-purple-400 transition duration-300">
             <img src={X} alt="X" className="w-4 h-4 sm:w-auto sm:h-auto" />
           </button>
-          <button className="bg-white text-black p-2 sm:p-3 rounded w-[40px] h-[40px] sm:w-[48px] sm:h-[48px] bg-purple-200 flex items-center justify-center">
+          <button className="bg-white text-black p-2 sm:p-3 rounded w-[40px] h-[40px] sm:w-[48px] sm:h-[48px] bg-purple-200 flex items-center justify-center hover:bg-purple-400 transition duration-300">
             <img
               src={Discord}
               alt="Discord"
               className="w-4 h-4 sm:w-auto sm:h-auto"
             />
           </button>
-          <button className="bg-white text-black p-2 sm:p-3 rounded w-[40px] h-[40px] sm:w-[48px] sm:h-[48px] bg-purple-200 flex items-center justify-center">
+          <button className="bg-white text-black p-2 sm:p-3 rounded w-[40px] h-[40px] sm:w-[48px] sm:h-[48px] bg-purple-200 flex items-center justify-center hover:bg-purple-400 transition duration-300">
             <img
               src={Tele}
               alt="Telegram"
               className="w-4 h-4 sm:w-auto sm:h-auto"
             />
           </button>
-          <button className="bg-white text-black p-2 sm:p-3 rounded w-[40px] h-[40px] sm:w-[48px] sm:h-[48px] bg-purple-200 flex items-center justify-center">
+          <button className="bg-white text-black p-2 sm:p-3 rounded w-[40px] h-[40px] sm:w-[48px] sm:h-[48px] bg-purple-200 flex items-center justify-center hover:bg-purple-400 transition duration-300">
             <img
               src={Tele}
               alt="Telegram"

@@ -5,7 +5,7 @@ import Icon2 from "../assets/Frame1.png";
 
 export const Layers = () => {
   return (
-    <div className="relative md:w-[800px] h-full p-20 border border-t-0 flex flex-col gap-6">
+    <div className="relative md:w-[800px] h-full md:p-20 p-6 border border-t-0 flex flex-col gap-6">
       {/* Left border with gradient */}
       <div className="absolute left-0 bottom-0 w-[0.5px] h-full bg-gradient-to-t from-black via-purple-900 to-purple-500"></div>
 

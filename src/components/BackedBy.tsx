@@ -24,7 +24,9 @@ export const BackedBy = () => {
             Incorporate a (RLHF) component to align Zoan AI's outputs with human
             preferences.
           </div>
-          <ArrowUpRightIcon className="text-xl sm:text-2xl xl:text-[24px] text-green-500" />
+          <div className="group hover:bg-green-400 transition duration-300 hover:translate-x-1 hover:-translate-y-1 w-fit">
+            <ArrowUpRightIcon className="text-green-500 group-hover:text-black text-xl sm:text-2xl xl:text-[24px]" />
+          </div>
         </div>
 
         <div className="border-[0.5px] border-purple-500 flex flex-col p-6 sm:p-8 xl:p-10 gap-8 sm:gap-10 xl:gap-11">
@@ -32,7 +34,10 @@ export const BackedBy = () => {
             Incorporate a (RLHF) component to align Zoan AI's outputs with human
             preferences.
           </div>
-          <ArrowUpRightIcon className="text-xl sm:text-2xl xl:text-[24px] text-green-500" />
+          {/* <ArrowUpRightIcon className="text-xl sm:text-2xl xl:text-[24px] text-green-500" /> */}
+          <div className="group hover:bg-green-400 transition duration-300 hover:translate-x-1 hover:-translate-y-1 w-fit">
+            <ArrowUpRightIcon className="text-green-500 group-hover:text-black text-xl sm:text-2xl xl:text-[24px]" />
+          </div>
         </div>
 
         <div className="border-[0.5px] border-purple-500 flex flex-col p-6 sm:p-8 xl:p-10 gap-8 sm:gap-10 xl:gap-11">
@@ -40,7 +45,9 @@ export const BackedBy = () => {
             Incorporate a (RLHF) component to align Zoan AI's outputs with human
             preferences.
           </div>
-          <ArrowUpRightIcon className="text-xl sm:text-2xl xl:text-[24px] text-green-500" />
+          <div className="group hover:bg-green-400 transition duration-300 hover:translate-x-1 hover:-translate-y-1 w-fit">
+            <ArrowUpRightIcon className="text-green-500 group-hover:text-black text-xl sm:text-2xl xl:text-[24px]" />
+          </div>
         </div>
       </div>
     </div>

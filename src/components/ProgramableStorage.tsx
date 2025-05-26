@@ -34,8 +34,11 @@ export const ProgramableStorage = () => {
             version-controlled, and runtime-compatible.
           </div>
 
-          <div className="mt-20">
-            <ArrowUpRightIcon className="text-green-500" size={32} />
+          <div className="group mt-20 hover:bg-green-400 transition duration-300 hover:translate-x-1 hover:-translate-y-1">
+            <ArrowUpRightIcon
+              className="text-green-500 group-hover:text-black"
+              size={32}
+            />
           </div>
         </div>
       </div>
