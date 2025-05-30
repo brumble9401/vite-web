@@ -20,10 +20,10 @@ export const ProgramableStorage = () => {
         <div className="flex flex-col items-center">
           <img src={zoanMascot} className="w-[320px] h-[320px]" />
           <div className="flex flex-col items-center justify-center mt-20">
-            <div className="font-luckiest uppercase text-3xl text-green-300">
+            <div className="font-luckiest uppercase text-[36px] text-green-300">
               Programmable Storage
             </div>
-            <div className="font-luckiest uppercase text-3xl text-green-300">
+            <div className="font-luckiest uppercase text-[36px] text-green-300">
               is a decentralized
             </div>
           </div>

@@ -24,7 +24,7 @@ const GradientRectangleBorderBox = () => {
 
         <div className="z-20 relative flex flex-col justify-center items-start p-10 space-y-10">
           <img src={vec1} className="w-10" />
-          <div className="font-luckiest text-2xl text-purple-400">
+          <div className="font-luckiest text-[36px] text-purple-400">
             {"AI is not a Skin => It's Skeleton"}
           </div>
           <div className="font-ubuntu text-white/50">
@@ -89,7 +89,11 @@ export const GradientSquareBorderBox: FC<TGradientSquareBorderBoxProps> = ({
           <div className="font-ubuntu text-[17px] font-bold text-purple-400 group-hover:text-purple-500">
             {title}
           </div>
-          <div className="font-ubuntu text-white/50 text-sm font-normal group-hover:text-black">
+          <div className="font-ubuntu text-white/50 text-sm font-extralight group-hover:text-black"
+            style={{
+              fontWeight: '200'
+            }}
+          >
             {description}
           </div>
         </div>

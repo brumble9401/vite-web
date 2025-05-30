@@ -11,12 +11,12 @@ const Header: React.FC = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 m-auto w-full md:w-[800px] bg-green-200 backdrop-blur-sm z-50 border border-t-0 border-green-400">
-      <div className="mx-auto md:px-4 py-3">
+      <div className="mx-auto py-3">
         <nav className="flex items-center justify-between px-4">
           {/* Logo + Social Icons (desktop) */}
           <div className="flex items-center gap-3">
             <img fetchPriority="high" src={logo} alt="logo" className="w-8" />
-            <div className="hidden sm:flex gap-2 items-center">
+            {/* <div className="hidden sm:flex gap-2 items-center">
               <img fetchPriority="high" src={rec} alt="rec" />
               <img fetchPriority="high" src={X} className="w-4" alt="X" />
               <img
@@ -31,46 +31,46 @@ const Header: React.FC = () => {
                 className="w-4"
                 alt="Telegram"
               />
-            </div>
+            </div> */}
           </div>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex space-x-8 items-center">
+          <div className="hidden md:flex md:gap-[60px] items-center">
             <div className="flex flex-row gap-2">
               <button className="font-luckiest text-white bg-black font-bold px-2">
-                <p className="translate-y-1">Github</p>
+                <p className="translate-y-[2.5px]">Github</p>
               </button>
               <button className="font-luckiest text-white bg-black font-bold px-2">
-                <p className="translate-y-1">Docs</p>
+                <p className="translate-y-[2.5px]">Docs</p>
               </button>
               <div className="font-luckiest text-black bg-purple-400 font-bold px-2">
-                <p className="translate-y-1">ZOANADS</p>
+                <p className="translate-y-[3px]">ZOANADS</p>
               </div>
             </div>
             <div className="flex flex-row gap-2">
-              <button className="font-luckiest bg-black text-white text-[16px] font-extrabold px-4 py-2 pt-1 rounded-xl shadow-md relative group hover:bg-green-500 hover:duration-500">
+              <button className="font-luckiest bg-black text-white text-[16px] font-extrabold px-3 rounded-xl shadow-md relative group hover:bg-green-500 hover:duration-500">
                 <span
-                  className="absolute top-2 left-1 bg-white -rotate-45 transition group-hover:-translate-y-[1px]"
+                  className="absolute top-1 left-1 bg-white rotate-[100rad] transition group-hover:-translate-y-[1px]"
                   style={{
                     width: "10px",
                     height: "6px",
                     borderRadius: "50%",
                   }}
                 ></span>
-                <p className="translate-y-1 uppercase group-hover:text-black">
+                <p className="translate-y-[2.5px] uppercase group-hover:text-black text-[16px] my-1">
                   Connect Wallet
                 </p>
               </button>
-              <button className="font-luckiest bg-purple-300 text-black text-[16px] font-extrabold px-4 py-2 pt-1 rounded-xl shadow-md relative group hover:bg-purple-400 hover:duration-500">
+              <button className="font-luckiest bg-purple-300 text-black text-[16px] font-extrabold px-3 rounded-xl shadow-md relative group hover:bg-purple-400 hover:duration-500">
                 <span
                   style={{
                     width: "10px",
                     height: "6px",
                     borderRadius: "50%",
                   }}
-                  className="absolute top-2 left-1 -rotate-45 bg-white rounded-full transition group-hover:-translate-y-[1px]"
+                  className="absolute top-1 left-1 rotate-[100rad] bg-white rounded-full transition group-hover:-translate-y-[1px]"
                 />
-                <p className="translate-y-1 uppercase">Sign Up</p>
+                <p className="translate-y-[2.5px] uppercase text-[16px] my-1">Sign Up</p>
               </button>
             </div>
           </div>

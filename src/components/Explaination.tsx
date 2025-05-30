@@ -24,7 +24,7 @@ export const Explaination = () => {
         </div>
 
         {/* Content container */}
-        <div className="flex flex-col items-center justify-between px-8 text-center z-20 relative mt-[120px] mb-[160px] gap-10">
+        <div className="flex flex-col items-center justify-between px-8 text-center z-20 relative mt-[100px] mb-[160px] gap-10">
           {/* Title section with the same style as in the image */}
           <div className="relative mb-8 mt-10">
             <div className="font-luckiest -rotate-1 bg-green-300 px-2 pt-2 text-black font-bold text-4xl py-auto">

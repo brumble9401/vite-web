@@ -1,4 +1,3 @@
-import cloud from "../assets/illus.png";
 import zoanLogo2 from "../assets/Zoan-Mascot-2.png";
 
 export const Card = () => {
@@ -27,13 +26,9 @@ export const Card = () => {
 
 export const Slider = () => {
   return (
-    <div className="relative bg-green-300 bg-[url('/seamless-pattern-green.png')] bg-[length:300px_300px] bg-repeat w-full">
-      <img
-        src={cloud}
-        className="relative top-10 z-20 object-cover h-[800px] w-full"
-      />
-      <div className="absolute top-0 left-0 w-full h-[25%] bg-gradient-to-b from-black to-black/10 z-20"></div>
-      <div className="absolute top-0 left-0 w-full h-[25%] bg-black z-10"></div>
+    <div className="relative bg-green-200 w-full py-60">
+      {/* <div className="absolute top-0 left-0 w-full h-[25%] bg-gradient-to-b from-black to-black/10 z-20"></div>
+      <div className="absolute top-0 left-0 w-full h-[25%] bg-black z-10"></div> */}
 
       <div className="md:w-[800px] mx-auto flex flex-col items-center mt-10 relative">
         <div className="absolute left-0 bottom-0 w-[0.5px] h-full bg-gradient-to-t from-green-300 via-black to-green-300"></div>
@@ -41,7 +36,7 @@ export const Slider = () => {
         {/* Right border with gradient */}
         <div className="absolute right-0 bottom-0 w-[0.5px] h-full bg-gradient-to-t from-green-300 via-black to-green-300"></div>
 
-        <div className="font-luckiest uppercase text-3xl mt-10 text-center">
+        <div className="font-luckiest uppercase text-[36px] mt-10 text-center">
           Puzzle & Style Vibrant Themes! Explore Enchanting Dream Homes
         </div>
         {/* <div className="font-luckiest uppercase text-3xl">
